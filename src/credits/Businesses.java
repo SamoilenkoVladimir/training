@@ -1,7 +1,7 @@
 package credits;
 
 public class Businesses extends Loan{
-	private Boolean governmentGuarantees;
+	private Boolean governmentGuarantees; //класс кредитов для юрлиц (добавлено поле - под гарантии государства)
 	
 	public Businesses(Integer id, String bank, Integer term, Boolean earlyRepayment, Boolean creditLineIncrease, Boolean  governmentGuarantees){
 		super(id, bank, term, earlyRepayment, creditLineIncrease);

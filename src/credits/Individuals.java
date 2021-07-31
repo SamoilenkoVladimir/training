@@ -1,7 +1,7 @@
 package credits;
 
 public class Individuals extends Loan{
-	private Boolean consumerLoans;
+	private Boolean consumerLoans; //класс кредитов для физлиц (добавлено поле - потребительские кредиты)
 	
 	
 
