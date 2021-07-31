@@ -4,9 +4,9 @@ public abstract class Loan {
 	
 	public Integer id;
 	public String bank;
-	public Integer term;
-	public Boolean earlyRepayment;
-	public Boolean creditLineIncrease;
+	public Integer term; // срок кредита (в месяцах)
+	public Boolean earlyRepayment; //возможность досрочного погашения
+	public Boolean creditLineIncrease; //возможность увеличения кредитной линии
 	public Loan(Integer id, String bank, Integer term, Boolean earlyRepayment, Boolean creditLineIncrease) {
 		super();
 		this.id = id;
